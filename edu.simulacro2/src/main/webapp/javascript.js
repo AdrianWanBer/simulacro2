@@ -18,7 +18,7 @@ function probarContraseña() {
 	}
 
 	if (contadorFalladas >= 3) {
-		alert();
+		alert("Has perdido!");
 	}
 	var falladas = document.getElementById("falladas");
 	falladas.innerHTML = "Falladas: " + contadorFalladas;
